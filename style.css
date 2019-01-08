@@ -1,0 +1,319 @@
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#desk{
+    border-radius: 15%;
+}
+
+#top{
+    text-align: center;
+    color: black;
+    padding:3%;
+    background-color: #2A4B5A;
+    color: oldlace;
+
+    font-size: 120%;
+}
+
+p{
+
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+li{
+    font-family: 'Lato', sans-serif;
+
+}
+body{
+    margin: 0;
+}
+
+
+table {
+    font-family: 'Roboto Mono', monospace;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 5%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+#contact-info{
+    margin: 3%;
+}
+
+#one-last-image{
+    margin-bottom:5%;
+    text-align: center;
+}
+
+
+
+hr{
+    border-color: goldenrod;
+}
+
+h1{
+    font-size: 200%;
+    margin-bottom:1%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
+}
+
+h2{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#projects{
+    margin: 7%;
+}
+
+#liberal{
+    height: 50%;
+    width: 40%;
+    margin-top:5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:3%;
+}
+
+#nav{
+    position:sticky;
+    top:0;
+    width:100%;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#nav li:hover{
+    display: inline;
+    background-color: black;
+}
+
+
+
+#nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #383838;
+}
+
+#nav li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+.active{
+    background-color: goldenrod;
+}
+
+#what{
+    margin:5%;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+label{
+    display: block;
+}
+
+
+input[type=submit]{
+    background-color: goldenrod;
+    padding: 5%;
+    border-radius: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: #383838;
+    padding:1%;
+    color: oldlace;
+    position: initial;
+    bottom: 0%;
+    width: 98%;
+}
+
+iframe{
+    width:75%;
+    height: 75%;
+    align-content:middle;
+    display: block;
+    margin:3%;
+}
+    
+
+
+#contact-form{
+    float:left;
+    margin: 10%;
+    margin-top:5%;
+    padding: 2%;
+}
+
+#contact-info{
+    float: center;
+    margin: 10%;
+    margin-top: 5%;
+}
+
+#contact-info li{
+    margin: 1%;
+}
+
+#contact-info h3{
+    margin: 2%;
+    text-align: center;
+}
+
+#contact-info ul{
+    padding-left:40%;
+}
+
+#contact-info h2,h4{
+    text-align: center;
+}
+
+#maps{
+    width: 60%;
+    height: 50%;
+    align-content:middle;
+    display: block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a:hover{
+    background-color: goldenrod;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#subject{
+    height:35%;
+    max-height: 35%;
+    width: 100%;
+}
+
+
+.col{
+    float: right;
+    width: 29%;
+    padding: 2%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+
+.col h2{
+    text-align: center;
+}
+
+
+#col-one{
+    margin-left:0%;
+    float: right;
+    background-color: lightgray;
+}
+
+#col-three{
+    background-color: lightgray;
+    margin-right:0.7%;
+}
+
+
+#col-two li{
+    margin: 1%;
+    font-size: 130%;
+}
+
+
+#hudson{
+    border-radius: 20%;
+    height: 70%;
+    width: 40%;
+    margin-top:5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+embed{
+    width:65%;
+    height:95%;
+    align-content:middle;
+    display: block;
+    margin:3%;
+}
+
+
+#work{
+    text-align: center;
+}
+
+#text-fields{
+    text-align: center;
+    margin: 10%;
+}
+
+#text-fields textarea{
+    height:35%;
+    max-height: 35%;
+}
